@@ -1,0 +1,479 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+* {
+margin:0;
+padding:0;
+}
+
+body{
+	background:url(../img/b.jpg);	
+}
+
+img {border: 0;} 
+
+body {
+	font-family:Open sans,Arial, Helvetica, sans-serif, "Arial Black";
+
+}
+
+.wrapper {
+margin:auto;
+width:1110px;
+}
+.highlight
+{
+    color:#7e6688; 
+}
+.icon
+{
+    height: 16px;
+    width: 16px;
+}
+h4 {
+  font-size: 14px;
+  margin: 0;  
+}
+
+input[type=text]
+{
+    border: 1px solid #D6D6D6;
+    color: #333333;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4px;
+    text-transform: none;
+    width: 230px;
+}
+input[type=password]
+{
+    border: 1px solid #D6D6D6;
+    color: #333333;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4px;
+    text-transform: none;
+    width: 230px;
+}
+input[type=submit]
+{
+    background:#5DBC25;
+    border: medium none;
+    border-radius: 2px 2px 2px 2px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    border: 1px solid #479818; 
+}
+input[type=button]
+{
+    background:#5DBC25;
+    border: medium none;
+    border-radius: 2px 2px 2px 2px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    border: 1px solid #479818; 
+}
+input[type=reset]
+{
+
+ 
+    background: #5DBC25;
+    border: medium none;
+    border-radius: 2px 2px 2px 2px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    height: 30px;
+   padding: 0 10px 0 10px;
+   border: 1px solid #479818;
+    
+}
+.showworng
+{   
+    background: url('../images/wrong.png') no-repeat;
+    width: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.showright
+{   
+    background: url('../images/wright.png') no-repeat;
+    width: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+/**front css*/
+.blockpolicy
+{
+    margin-bottom:30px;
+border: 1px solid #EEE;
+border-top: 5px solid #92C44F;
+padding:20px;
+font-size: 14px;
+}
+.innerheading_main
+{
+  font-size: 16px;
+  color: #4C974B;  
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.listli li
+{
+    padding-bottom: 5px;
+}
+.con_right {
+float:left;
+width:213px;
+margin-left:20px;
+font-size: 12px;
+}
+.con_right_box {
+float:left;
+width:211px;
+background:#FFFFFF;
+margin-bottom:30px;
+border: 1px solid #EEE;
+}
+
+.con_right_box_last {
+float:left;
+width:211px;
+background:#FFFFFF;
+border: 1px solid #EEE;
+}
+.con_right_title {
+float:left;
+width:191px;
+height:40px;
+line-height:40px;
+background:url(../images/right_box_title.jpg) repeat-x;
+color:#000000;
+font-weight:bold;
+padding:0 10px;
+font-family: lato;
+font-weight: normal;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+.con_right_box_text {
+float:left;
+width:191px;
+padding:10px;
+}
+
+.con_right_box_text  a {
+text-decoration:none;
+color:#434343;
+font-size: 13px;
+margin-bottom: 3px;
+}
+
+.con_right_box_text  a:hover {
+text-decoration:underline;
+color:#434343;
+}
+
+
+.linkcontent {
+text-decoration:none;
+color:#434343;
+padding:5px;
+}
+
+.linkcontent a {
+text-decoration:none;
+color:#434343;
+}
+
+.linkcontent a:hover {
+text-decoration:underline;
+color:#000000;
+}
+.mainheading_highlight
+{
+    font-size: 20px;
+    color: black;
+    font-family: lato;
+    text-transform: uppercase;
+}
+.breadcrumb
+{
+    padding-bottom: 10px;
+}
+.breadcrumb a
+{
+    color: black;
+    margin-right: 5px;
+    text-decoration: none;
+}
+a .current_breadcrumb
+{
+    
+}
+.tw-bs {
+  /*!
+ * Bootstrap v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+}
+
+.tw-bs .alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #c09853;
+}
+.tw-bs .alert-heading {
+  color: inherit;
+}
+.tw-bs .alert .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 18px;
+  float: right;
+  cursor:pointer;
+}
+.tw-bs .alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+.tw-bs .alert-danger,
+.tw-bs .alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+.tw-bs .alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+}
+.tw-bs .alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.tw-bs .alert-block > p,
+.tw-bs .alert-block > ul {
+  margin-bottom: 0;
+}
+.tw-bs .alert-block p + p {
+  margin-top: 5px;
+}
+.jb_greenbox {
+  background-color:#FAFAFA;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-color:#DDDDDD #DDDDDD #DDDDDD #CDD452;
+  border-style:solid;
+  border-width:1px 1px 1px 8px;
+  margin:10px 0 20px;
+  padding:8px;
+  width: 96%;
+
+}
+.jb_bluebox {
+  background-color:#FAFAFA;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-color:#DDDDDD #DDDDDD #DDDDDD #417378;
+  border-style:solid;
+  border-width:1px 1px 1px 8px;
+  margin:10px 0 20px;
+  padding:8px;
+    width: 96%;
+}
+.font700
+{
+    font-weight: 700;
+    padding-bottom:2px;
+}
+.points li
+{
+    list-style-type: none;
+    background: url('../images/arrow-left.png')  no-repeat;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.red
+{
+	color:red;
+}
+.mandatory
+{
+	color:red;
+}
+#homemenus ul
+{
+	padding:0 !important;
+	margin:0 !important;
+	font-size:13px;		
+}
+#homemenus  li
+{
+	
+	font-size:13px;		
+	list-style:none;
+		padding-bottom:5px;
+}
+#homemenus  ul li
+{
+	padding-left:20px;	
+	padding-bottom:5px;
+}
+#homemenus  li a
+{
+	color:#0469b1;
+}
+#homemenus  ul li a
+{
+	color:#333333;
+}
+.homemenu li
+{
+	list-style:disc;
+}
+.homemenu li a
+{
+	font-size:13px;
+	color:black;
+}
+input[type="radio"], input[type="checkbox"]
+{
+	margin:-8px 0px !important;
+}
+
+/* -- CONTROL PANEL STYLES ----------------------------- */
+.cpanel div.icon, #cpanel div.icon {
+	text-align: center;
+	margin-right: 15px;
+	float: left;
+	margin-bottom: 35px;
+	height: 97px;
+	width: 108px;
+}
+.cpanel div.icon a, #cpanel div.icon a {
+	background-color: #fff;
+	background-position: -30px;
+	display: block;
+	float: left;
+	height: 97px;
+	width: 108px;
+	color: #565656;
+	vertical-align: middle;
+	text-decoration: none;
+	border: 1px solid #CCC;
+	font-size:12px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition-property:
+		background-position,
+		-webkit-border-bottom-left-radius,
+		-webkit-box-shadow;
+	-moz-transition-property:
+		background-position,
+		-moz-border-radius-bottomleft,
+		-moz-box-shadow;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+}
+
+#cpanel div.icon a:hover,
+#cpanel div.icon a:focus,
+#cpanel div.icon a:active,
+.cpanel div.icon a:hover,
+.cpanel div.icon a:focus,
+.cpanel div.icon a:active {
+	background-position: 0;
+	-webkit-border-bottom-left-radius: 50% 20px;
+	-moz-border-radius-bottomleft: 50% 20px;
+	border-bottom-left-radius: 50% 20px;
+	-webkit-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	position: relative;
+	z-index: 10;
+}
+
+#cpanel img,
+.cpanel img {
+	padding: 10px 0;
+	margin: 0 auto;
+	height:50px;
+}
+
+#cpanel span,
+.cpanel span {
+	display: block;
+	text-align: center;
+}
+
+div.cpanel-left {
+	width: 54%;
+	float: left;
+}
+
+div.cpanel-right {
+	width: 45%;
+	float: right;
+}
+.newstable 
+{
+	font-size:12px;
+}
+.commontable td
+{
+	font-size:13px !important;
+	height:45px  !important;
+} 
+input[type=text],input[type=password],textarea
+{
+	border-radius:0px;
+	width:240px;
+}
+.formerror
+{
+	font-size:12px;
+	color:red;
+	display:inline-block;
+	padding-left:2px;
+}
+.commontable select
+{
+	width:240px;
+	border-radius:0px;
+	font-family:open sans;
+}
+.hierarchy  a
+{
+	font-size:13px !important;
+	color:black;
+}

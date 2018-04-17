@@ -1,0 +1,129 @@
+@media (max-width: 767px) {
+    .container {
+        width: 100% !important
+    }
+
+    img.logo {
+        margin: 0 auto;
+        display: block;
+        padding: 10px 50px 10px 0
+    }
+
+    .premieum_listing {
+        width: 85%
+    }
+
+    #contact_form input, #contact_form table, #contact_form textarea, .premieum_listing li {
+        width: 100%
+    }
+
+    .nopadding_xs {
+        padding: 0
+    }
+
+    .padding-xs {
+        padding-left: 15px !important;
+        padding-right: 15px !important
+    }
+
+    #contact_form table td tr {
+        display: block;
+        float: none
+    }
+
+    #contact_form input[type=submit] {
+        width: 50%
+    }
+
+    .domain_det_strip ul li {
+        display: block;
+        width: auto
+    }
+
+    .domain_det_strip ul li hr {
+        width: 50%
+    }
+
+    h1.domain_name {
+        font-size: 33px
+    }
+
+    .pre_domain .sep_pre_domain.alt, .pre_domain .sep_pre_domain.alt h4, .pre_domain .sep_pre_domain.alt i {
+        float: none;
+        line-height: 50px
+    }
+
+    .sep_pre_domain {
+        width: 100%;
+        float: none
+    }
+
+    .offer input[type=submit] {
+        width: 50%
+    }
+
+    .filter_container .radio-inline{
+        margin-left:0 !important;
+    }
+    .mon_search .input_wrap{
+        width:48%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 722px !important
+    }
+
+    img.logo {
+        margin: 0 auto;
+        display: block;
+        padding: 10px
+    }
+
+    .nopadding_sm {
+        padding: 0
+    }
+
+    #contact_form input, #contact_form textarea {
+        width: 100%
+    }
+
+    #contact_form input[type=submit] {
+        width: 50%
+    }
+
+    .domain_det_strip h3 {
+        font-size: 18px
+    }
+    .search_but,.clear_but,.shorten-url{
+        margin-right:10px;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 944px !important
+    }
+
+    .header_menu li a {
+        padding: 29px 7px;
+        font-size: 13px
+    }
+
+    .premieum_listing {
+        width: 85%
+    }
+
+    .domain_det_strip h3 {
+        font-size: 20px
+    }
+
+    .search_but,.clear_but,.shorten-url{
+        margin-right:10px;
+    }
+
+}

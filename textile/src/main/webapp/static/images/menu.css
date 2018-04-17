@@ -1,0 +1,40 @@
+.clear { height: 100% }
+.clear:after { content: ''; display: block; clear: both }
+#menu {
+position:relative;
+z-index:1;
+}
+
+#menu, #menu ul { list-style: none; margin: 0; padding: 0;text-transform: uppercase; color: #082F68;z-index: 10000000;}
+
+#menu em { color:#cfcfcf; font-weight:normal; }
+
+#menu li {  position: relative; float: left; white-space: nowrap; margin-top:0px; line-height:40px; border-right: 1px solid #00528c;   }
+#menu li a { display: block; padding: 0px 14px; text-decoration: none; color:white; font-size:13px; }
+
+#menu li a img { vertical-align:middle; padding-right:7px;  }
+
+
+#menu li a:hover { color:#1c56ac;background: white; }
+
+ #menu li a.current {color:black;background: white; }
+ 
+
+#menu ul { background: #fff; display: none; position: absolute; border: 1px solid #f2eeee; border-top:0;    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);   
+    behavior: url(PIE.htc);top:40px; }
+#menu ul li { background:white ; border-top: 1px solid #f2eeee; border-right: 0px solid transparent; float: none; }
+
+#menu ul li a {  padding: 1px 10px; text-transform:none; color:#000000; min-width:200px; text-transform: uppercase; } /*sub menu*/
+
+ #menu ul li a:hover {
+color:#1c56ac;
+}
+ 
+#menu ul ul { top: -1px; left: 100% } /*sub sub menu*/
+
+#menu ul ul a {  padding: 5px 20px;  }
+
+#menu li.has_child { background:none; padding-right: 0px; }
+#menu li.hover  { }
+

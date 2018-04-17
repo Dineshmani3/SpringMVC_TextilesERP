@@ -1,0 +1,350 @@
+.form-control::-moz-placeholder {
+    color: #cecece;
+    opacity: 1;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder
+{
+    color:#cecece;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder
+{
+    color:#cecece;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder
+{
+    color:#cecece;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder
+{
+    color:#cecece;
+}
+.text-red{
+    color:#e60000;
+}
+.state-error{
+    color: #E36D5A;
+    font-size:12px;
+    font-style:normal;
+}
+.admin-form .required,.required{
+    color: #e60000;
+}
+.state-success{
+    color: #000;
+    font-size:12px;
+    font-style:normal;
+}
+.pagination {
+    border-radius: 4px;
+    display: inline-block;
+    margin:0;
+    padding:0;
+    float:right;
+}
+.act_action{
+    padding: 1px;
+    border-radius: 2px;
+    color: white;
+    width: 23px;
+    height: 21px;
+    margin: 0 auto;
+    display: block;
+    margin-left: 30px;
+}
+.act_activate{
+    background: #85D27A;
+}
+.act_deactivate{
+    background: #E36D5A;
+}
+.nopadding{
+    padding:0;
+}
+.dropdown-menu{
+    min-width:82px;
+}
+/*.actions-btn{
+    width:125px;
+}*/
+.form-horizontal .checkbox{
+    min-height:21px;
+}
+.ui-pnotify{
+    width:335px !important;
+}
+.ui-pnotify-text {
+    left: 54px;
+    position: absolute;
+    top: 26px;
+}
+
+/* multiselect custom css */
+.multiSelectBox .btn-group{
+    width: 100%;
+}
+.multiSelectBox .btn {
+    border-radius: 0;
+    font-size: 13px;
+    text-align: left;
+    white-space: normal;
+    width: 100%;
+    background: #fff;
+}
+.multiSelectBox .btn-default:hover,
+.multiSelectBox .btn-default:focus,
+.multiSelectBox .btn-default:active,
+.multiSelectBox .btn-default.active,
+.multiSelectBox .open > .dropdown-toggle.btn-default {
+    background-color: #ffffff;
+}
+
+.multiSelectBox .btn .caret {
+    float: right;
+    margin-top: 8px;
+}
+
+.multiSelectBox ul{
+    width:100%;
+    border-radius:0;
+    max-height:200px;
+    overflow-y:scroll;
+}
+.multiSelectBox .multiselect-container > li > a > label
+{
+    padding:10px 4px;
+    border-bottom:1px solid #EFEFEF;
+}
+
+.multiSelectBox .dropdown-menu > .active > a,
+.multiSelectBox  .dropdown-menu > .active > a:focus,
+.multiSelectBox .dropdown-menu > .active > a:hover
+{
+    background-color: #60AD11;
+    color: #fff;
+}
+.multiSelectBox .btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+
+.multiSelectBox .checkbox input[type="checkbox"]
+{
+    /*display:none;*/
+    width:1px ;
+}
+.multiSelectBox .radio input[type="radio"]
+{
+    display:none;
+    width:1px ;
+}
+.multiSelectBox .input-group-addon,
+.multiSelectBox .input-group-btn{
+    display:none;
+}
+.multiselect-container.dropdown-menu .input-group {
+    width: 98%;
+}
+
+/*changed for not working */
+.multiSelectBox .radio input[type="radio"],
+.multiSelectBox .radio-inline input[type="radio"],
+.multiSelectBox .checkbox input[type="checkbox"],
+.multiSelectBox .checkbox-inline input[type="checkbox"] {
+    margin-left: -120px;
+    position: absolute;
+}
+
+.multiSelectBox .admin-form .checkbox,
+.multiSelectBox .admin-form .radio,
+.multiSelectBox .multiselect-container > li > a > label{
+    border:none !important;
+    width:100% !important;
+    padding-left:0 !important;
+    background:none !important;
+    color:#fff;
+}
+.multiselect-container.dropdown-menu > li > a {
+    background: #EFEFEF;
+    border-bottom: 1px solid #fff;
+    color: #000;
+    padding: 0 10px;
+}
+.multiselect-container.dropdown-menu > li > a > label.radio,
+.multiselect-container.dropdown-menu > li > a > label.checkbox {
+    color: #000;
+}
+.multiselect-container.dropdown-menu > li.active > a > label{
+    color:#fff;
+}
+/* end of multiselect custom css */
+/* radio css */
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 21px;
+}
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+    padding-top: 0;
+}
+/*end*/
+
+.note{
+    font-size:12px;
+    padding:10px 0;
+    color:#999999;
+}
+/*.file {
+    visibility: hidden;
+    position: absolute;
+}*/
+/*dropzone demo css*/
+.tray-bin{
+    margin:0;
+}
+.dz-demo .dz-message {
+    opacity: 0 !important;
+}
+.dropzone .dz-preview.example-preview .dz-success-mark,
+.dropzone-previews .dz-preview.example-preview .dz-success-mark {
+    opacity: 1;
+}
+.dropzone .dz-preview.example-preview .dz-error-mark,
+.dropzone-previews .dz-preview.example-preview .dz-error-mark {
+    opacity: 0;
+}
+.dropzone{
+    background: transparent;
+    border: 0;
+}
+
+#datatable .dtcheck{
+    padding-left:5px !important;
+    padding-right:0 !important;
+    width:0 !important;
+    text-align: center;
+}
+#datatable .dtcenter{
+    text-align: center;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #3bafda;
+    color: #fff;
+}
+.nav-tabs{
+    border-bottom: 3px solid #00c0ef;
+}
+.nav-tabs > li > a:hover {
+    border: 1px solid #00c0ef;
+    background-color: transparent;
+}
+.tab-content {
+    border-bottom: 3px solid #00c0ef;
+}
+.img-rounded {
+    border-radius: 100%;
+}
+.img-shadow{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.img-bordered{
+    border:1px solid #ddd;
+}
+.table-label{
+    background-color: #f5f5f5;
+}
+
+.dtcenter{
+    text-align: center;
+}
+
+table.dataTable thead th, table.dataTable thead td,
+table.dataTable.no-footer {
+    border: none !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child::before{
+    position: relative;
+
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child {
+    padding-left: 8px;
+}
+table.dataTable .control{
+    width:2% !important;
+}
+
+@media (max-width: 991px) {
+    table.dataTable{
+        max-width:100% !important;
+    }
+}
+@media (min-width: 992px) {
+    table.dataTable{
+        width:100% !important;
+    }
+}
+
+#globalModal .modal-body > .loader {
+     padding: 30px 0;
+ }
+#globalModal .es-spinner {
+    margin: 0 auto;
+    text-align: center;
+    width: 70px;
+}
+.std_profile img{
+ float:left;
+}
+.std_profile a,.std_profile >span{
+    margin-left:50px;
+    display: block;
+}
+.fees_detail_tbl tr th:nth-child(3),.fees_detail_tbl tr td:nth-child(3){
+    text-align: right;
+}
+.noticeboard-ul{
+    padding:0;
+    margin:0;
+}
+.noticeboard-ul li{
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px 0;
+    list-style-type: none;
+}
+.noticeboard-ul li:last-child{
+    border-bottom: 0;
+}
+.noticeboard-ul .item-info{
+    padding:5px;
+}
+.noticeboard-ul .item-title{
+    display: block;
+}
+#globalModal .table tbody > tr > td {
+    border-top: 1px solid #eee !important;
+}
+.more_info,.more_info:hover{
+    text-decoration: none;
+}
+/*calendar css*/
+.fc-view-container .fc-event {
+    background-color: #f4f4f4 !important;
+    margin: 2px 10px 3px !important;
+    padding: 8px !important;
+}
+.fc-event-primary {
+    border-left-color: #3498db !important;
+}
+.fc-event{
+    border-width: 1px 1px 1px 4px !important;
+    color: #777 !important;
+}
+.fc-view-container .fc-event .fc-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
